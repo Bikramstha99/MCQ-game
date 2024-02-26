@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and font style */
+  body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use 100% of the viewport height */
+  }
+  
+  /* Style the app container */
+  .container {
+    width: 50%; /* Make it cover half of the screen */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the quiz container */
+  .quiz-box {
+    text-align: left;
+  }
+  
+  /* Style the question */
+  #question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the answer buttons */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the next button */
+  #next-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  #next-btn:hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Style the high score button */
+  #high-score-btn {
+    display: none;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+  }
+  
+  #high-score-btn:hover {
+    background-color: #d39e00;
+  }
+
+.correct{
+    background: rgb(35, 177, 35);
+}
+.incorrect{
+    background: rgb(218, 56, 27);
+}

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: blue; /* Change the heading color to your preference */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid silver;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button.submit {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+button.submit:hover {
+    background-color: blue; /* Change the hover color to your preference */
+}
+
+p {
+    margin-top: 15px;
+}
+
+p a {
+    text-decoration: none;
+    color: blue; /* Change the link color to your preference */
+    font-weight: bold;
+}
+
+ul.names {
+    list-style-type: none;
+    padding: 0;
+}
