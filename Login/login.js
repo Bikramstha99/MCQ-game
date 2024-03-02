@@ -17,7 +17,6 @@ function login() {
       alert("Login Successful");
       sessionStorage.setItem('currentUser',username);  
       window.location="../Home/home.html";
-  
     }
     else{
       alert("user not found or incorrect password");
