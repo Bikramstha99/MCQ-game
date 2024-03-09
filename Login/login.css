@@ -27,7 +27,7 @@ h2 {
 label {
     display: block;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 input[type="email"],
@@ -67,6 +67,5 @@ p a {
 }
 
 ul.names {
-    list-style-type: none;
     padding: 0;
 }
